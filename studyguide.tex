@@ -542,30 +542,29 @@ Second Approach: Look for periodic walking pattern
 
 \textbf{Overfitting}: phenomenon of relying on patterns that are strong only in training data
 
-\vspace{2mm}
+\vspace{1mm}
 \subsection{Confusion Matrix: Performance Measures}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=0.3\textwidth]{confusion_matrix}
+\end{figure}
 \begin{itemize}
-\item Rows correspond to known class of data
-\item Columns correspond to predictions made by model
+\item Rows: known class of data, Columns: predictions made by model
 \item Diagonal elements show number of correct classifications made for each class
 \item Off-diagonal elements show errors made
 \end{itemize}
 
-\vspace{2mm}
-$TP$ and $FP$ are numbers of true positive and false positive predictions for considered class.
 
-\textbf{Accuracy}: overall correctness of model
-\vspace{-1mm}
-\begin{itemize}
-\item Sum of correct classifications divided by total number of classifications
-\end{itemize}
+\textbf{Accuracy}: proportion of total number of predictions that were correct
+\[ \text{Accuracy} = \frac{a+d}{a+b+c+d} \]
 
 
-\textbf{Precision}: measure of accuracy provided that a specific class has been predicted (cell / sum of column)
-\[ \text{Precision} = \frac{TP}{TP + FP} \]
 
-\textbf{Recall}: measure of ability of model to select instances of a certain class from a data set (cell / sum of row)
-\[ \text{Recall} = \frac{TP}{TP + FN} \]
+\textbf{Precision}:  proportion of predicted positive cases that were correct (cell / sum of column)
+\[ \text{Precision} = \frac{d}{b+d} \]
+
+\textbf{Recall}: proportion of positive cases that were correctly identified (cell / sum of row)
+\[ \text{Recall} = \frac{d}{c+d} \]
 
 \textbf{F-measure}: weighted average of precision and recall (best at 1, worst at 0)
 \[ \text{F} = \frac{2 \times \text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} \]
