@@ -1,0 +1,31 @@
+\BOOKMARK [1][-]{section.1}{Sensor Data Smoothing \046 Filtering}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Information in Signals}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Noisy Sensor Signals}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Time-series Smoothing and Filtering}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Frequency-domain Filtering}{section.1}% 5
+\BOOKMARK [1][-]{section.2}{Designing a Pedometer}{}% 6
+\BOOKMARK [2][-]{subsection.2.1}{Step Detection Algorithm}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Activity Recognition using Inertial Sensors}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Detection vs. Classification}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.2}{Labeled Data Collection}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.3}{Visualizing Common Activities}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.4}{Feature Generation \046 Data Transformation}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.5}{Decision Tree Classifier}{section.3}% 13
+\BOOKMARK [1][-]{section.4}{Evaluating Classifier Performance}{}% 14
+\BOOKMARK [2][-]{subsection.4.1}{Cross Validation}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.2}{Confusion Matrix: Performance Measures}{section.4}% 16
+\BOOKMARK [1][-]{section.5}{Quantified Self \046 Personal Data Analytics}{}% 17
+\BOOKMARK [2][-]{subsection.5.1}{Quantified Self Movement}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.2}{Obtaining Data About Yourself}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.3}{Analyzing Lifelog Data for Useful Insights}{section.5}% 20
+\BOOKMARK [1][-]{section.6}{Voice-based Health Analytics}{}% 21
+\BOOKMARK [2][-]{subsection.6.1}{Voice Analysis Library: Feature Set}{section.6}% 22
+\BOOKMARK [2][-]{subsection.6.2}{Voice Analysis Library: Classification}{section.6}% 23
+\BOOKMARK [2][-]{subsection.6.3}{Monitoring Affect with a Mobile Phone}{section.6}% 24
+\BOOKMARK [1][-]{section.7}{Physiological Sensing}{}% 25
+\BOOKMARK [2][-]{subsection.7.1}{Electrocardiogram \(ECG\)}{section.7}% 26
+\BOOKMARK [2][-]{subsection.7.2}{Photoplethysmography \(PPG\)}{section.7}% 27
+\BOOKMARK [2][-]{subsection.7.3}{Electrodermal Activity \(EDA\)}{section.7}% 28
+\BOOKMARK [1][-]{section.8}{GPS Clustering \046 Analytics}{}% 29
+\BOOKMARK [2][-]{subsection.8.1}{Clustering Location Data}{section.8}% 30
+\BOOKMARK [2][-]{subsection.8.2}{GPS Clustering}{section.8}% 31
